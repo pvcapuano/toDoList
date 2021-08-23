@@ -2,35 +2,35 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>To Do List</title>
+    <title>todo-list</title>
 </head>
 <body>
-    <section class="container">
-        <h1>To Do List</h1>
+    <div class="todo">
+        <div class="todo__title">
+            TODO - LIST
+        </div>
 
-        <div class="todo_list">
-            <label class="todo_item">
+        <div class="todo__list">
+            <label class="todo__item">
                 <input type="checkbox">
-                <div>teste</div>
+                <div>teste de item 1</div>
                 <input type="button" value="X">
             </label>
-            <label class="todo_item">
+            <label class="todo__item">
                 <input type="checkbox">
-                <div>teste 2</div>
+                <div>teste de item 2</div>
                 <input type="button" value="X">
             </label>
         </div>
 
-        <div class="todo_new-item">
-            <div>&and</div>
-            <input type="text" placeholder="Digite e pressione a tecla enter para inserir a tarefa">
-            <div>&and</div>
+        <div class="todo__new-item">
+            <div>&and;</div>
+            <input type="text" placeholder="Digite e pressione enter para adicionar a tarefa">
+            <div>&and;</div>
         </div>
-
-    </section>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
